@@ -1,0 +1,128 @@
+#back-right {
+  top: 0;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  border-left: 2px solid red;
+  border-radius: 5px;
+}
+#Login {
+  width: 60%;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background-color: #292929;
+}
+#Login #User {
+  height: 5%;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline-color: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 50%;
+}
+#Login #User::placeholder {
+  color: white;
+}
+#Login #User:hover,
+#Login #User:active,
+#Login #User:focus {
+  border: 2px solid #108d9b;
+}
+/* */
+#Login #Pass {
+  height: 5%;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline-color: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 50%;
+}
+#Login #Pass::placeholder {
+  color: white;
+}
+#Login #Pass:hover,
+#Login #Pass:active,
+#Login #Pass:focus {
+  border: 2px solid #108d9b;
+}
+/* */
+#Login #Loginbtn {
+  height: 5%;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline-color: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  text-align: center;
+}
+#Login #Loginbtn:hover,
+#Login #Loginbtn:active,
+#Login #Loginbtn:focus {
+  border: 2px solid #108d9b;
+}
+/* */
+#Login #SignUp {
+  height: 5%;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline-color: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 25%;
+  text-align: center;
+}
+#Login #SignUp:hover,
+#Login #SignUp:active,
+#Login #SignUp:focus {
+  border: 2px solid #108d9b;
+}
+@media screen and (max-width: 800px) {
+  #Login #SignUp {
+    top: 56%;
+    height: 6%;
+    width: 60%;
+  }
+  #Login #Loginbtn {
+    top: 48%;
+    left: 20%;
+    width: 60%;
+    height: 6%;
+
+  }
+}
